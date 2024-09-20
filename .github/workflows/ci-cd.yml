@@ -29,7 +29,7 @@ jobs:
       - name: Unit tests
         run: mvn clean test
 
-#      - name: Run API on H2 database (QA)
+#      -// name: Run API on H2 database (QA)
 #        run: |
 #          mvn   clean package
 #          java -jar -Dspring.profiles.active=qa  target/bootcamp-1.0.jar & APP_PID=$!
@@ -37,7 +37,7 @@ jobs:
 #
 #      - name: Run E2E tests
 #        uses: matt-ball/newman-action@master
-#        with:
+#        with:    
 #          collection: Bootcamp-QA.postman_collection.json
 #          environment: QA.postman_environment.json
 #

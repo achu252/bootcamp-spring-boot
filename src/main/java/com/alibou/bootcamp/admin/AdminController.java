@@ -30,3 +30,4 @@ public class AdminController {
         return ResponseEntity.ok(service.findAllUsersByState(true));
     }
 }
+

@@ -92,4 +92,3 @@ create sequence public.role_seq
 
 create sequence public.transaction_seq
     increment by 50;
-test
